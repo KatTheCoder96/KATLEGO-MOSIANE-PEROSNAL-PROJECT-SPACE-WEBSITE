@@ -17,7 +17,7 @@ body {
 
 .navbar ul {
   list-style-type: none;
-  background-color: rgb(138, 153, 143);
+  background-color: rgb(247, 251, 248);
   padding: 0px;
   overflow: hidden;
   font-family: monospace;
@@ -27,7 +27,7 @@ body {
 }
 
 .navbar a {
-  color: rgba(28, 25, 25, 0.417);
+  color: rgb(0, 0, 0);
   text-decoration: none;
   padding: 15px;
   display: block;
@@ -64,5 +64,5 @@ body {
 .cta {
   border: 1px solid #a3bc71;
   padding: 2px 4px;
-  background: #1dc31f;
+  background: #e70b0b;
 }
