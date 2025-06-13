@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  color: rgb(45, 43, 43);
+  text-align: center;
+  font-size: 33px;
+  font-family: "Orbitron", sans-serif;
+  background-image: url(images/spacex-OHOU-5UVIYQ-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px 0 40px 0;
+}
+
+#title {
+  text-shadow: 5px 0px 5px rgb(34, 174, 18);
+  /*           ➡️   ⬇️  blur color */
+}
+
+.navbar ul {
+  list-style-type: none;
+  background-color: rgb(138, 153, 143);
+  padding: 0px;
+  overflow: hidden;
+  font-family: monospace;
+  font-size: 25px;
+  position: relative;
+  top: 0;
+}
+
+.navbar a {
+  color: rgba(28, 25, 25, 0.417);
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+  font-weight: 800;
+}
+
+.navbar li {
+  float: left;
+}
+
+.footer {
+  background-color: #fff;
+  padding: 0.5em;
+  margin-top: 30px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+#main-logo {
+  width: 300px;
+}
+
+.btn {
+  padding: 6px 12px;
+  background: rgb(105, 215, 210);
+  border: none;
+  font-family: inherit;
+  font-weight: 700;
+}
+
+.cta {
+  border: 1px solid #a3bc71;
+  padding: 2px 4px;
+  background: #1dc31f;
+}
